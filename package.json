@@ -1,0 +1,30 @@
+{
+  "name": "cribot",
+  "version": "1.0.0",
+  "description": "Crypto Rebalancing Index Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node out/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wallbeach",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/crypto-js": "^4.0.1",
+    "@types/request": "^2.48.5",
+    "@types/sqlite3": "^3.1.7",
+    "@types/typescript": "^2.0.0",
+    "@types/ws": "^7.4.4",
+    "axios": "^0.21.1",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.2",
+    "sqlite3": "^5.0.2",
+    "tsc": "^2.0.3",
+    "typescript": "^4.2.4",
+    "ws": "^7.5.3"
+  }
+}
