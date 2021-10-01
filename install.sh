@@ -11,7 +11,7 @@ npm install;
 # Copy the _config.ts file and rename it to config.ts if it does not exist
 if [ ! -f "src/Config.ts" ] ; then
     echo "[SETUP] Config file not found! Copying ...";
-    cp template/_Config.ts src/Config.ts;
+    cp src/_Config.ts src/Config.ts;
 fi
 
 # Compile source code
