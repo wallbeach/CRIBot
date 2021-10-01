@@ -19,6 +19,11 @@ The bot uses a treshold strategy to maintain an equaly weighted portfolio. As so
 On top of that, the bot offers a possibility to dollar cost average (DCA) invest your money. You can specify until which day of the month (eg. every 25th) your USDT should be invested and how many DCA intervalls there should be daily. The bot will then automatically divide the USDT amount into equal parts which will then be invested.
 
 ## Requirements
+
+### Crypto.com exchange
+The bot is based on crypto.com exchange. In order to run the bot you need a trading account for which you can sign up here: https://crypto.com/exch/vk3ymp3msw
+
+### NodeJS
 The bot is running on NodeJS and it is presumed you will want to run it with a process manager such as PM2, to automatically restart it in case of failure and keep it running when you detach from the terminal session. The following steps will make sure you have all prerequisits installed and the repository downloaded.
 ##### Install NodeJS
 Both the bot itself as well as the process manager will be run on NodeJS. You can install NodeJS with `apt-get install nodejs`.
