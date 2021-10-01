@@ -24,7 +24,7 @@ else
     ./node_modules/.bin/tsc;
 
     # Start the bot
-    pm2 start ./out/index.js --name "$name" --time;
+    pm2 start ./src/index.js --name "$name" --time;
 
     echo >&2 "[OK] "$name" started!";
 fi
