@@ -1,4 +1,5 @@
 import crypto from "crypto-js";
+import axios from "axios";
 import { IAccount, IOrder, ITrade, ICoin, ITicker, IInstrument } from "./Interface";
 import { Config } from './Config.js';
 
